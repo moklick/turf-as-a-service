@@ -13,3 +13,5 @@ For example: `GET` **https://red-ridge.hyperdev.space/point**
 Use a `POST` request with the function name and the params in the request body to run the function:
 
 For example: `POST` **https://red-ridge.hyperdev.space/point** {"geometry": [13.4, 52.52]}
+
+don't take this too serious
