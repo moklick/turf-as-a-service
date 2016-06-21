@@ -2,7 +2,7 @@
 
 Here you find the project [turf as a service](https://red-ridge.hyperdev.space/).
 
-## Params infos
+## Param infos
 
 Use a `GET` request with the function name for getting the infos about the function parameter you need to pass:
 
