@@ -1,3 +1,3 @@
 # turf-as-a-service
 
-project for testing hyperdev
+check hyperdev branch for more infos
