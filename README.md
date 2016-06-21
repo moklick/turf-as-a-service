@@ -1,25 +1,13 @@
-Welcome to the HyperDev BETA
-============================
+# TURF as a service
 
-Click `"Show"` in the header to see your app is live. Updates to your code will instantly deploy and update live.
+Here you find the project [turf as a service](https://red-ridge.hyperdev.space/).
 
-HyperDev is a developer playground that lets you code a real web-app without the slow setup and deployment steps. 
+## Params infos
 
+Use a `GET` request with the function name for getting the infos about the function parameter you need to pass:
+For example: **https://red-ridge.hyperdev.space/point**
 
-Your Project
-------------
+## Service
 
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env`
-
-On the front-end,
-- edit `client.js`, `style.css` and `index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-
-Made by Fog Creek
------------------
-
-\ ゜o゜)ノ
+Use a `POST` request with the function name and the params in the request body to run the function:
+For example: `POST` **https://red-ridge.hyperdev.space/point** {"geometry": [13.4, 52.52]}
